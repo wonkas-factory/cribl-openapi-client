@@ -393,7 +393,7 @@ public class OutputStatsd implements OneOfOutput, AnyOfOutputStatsd {
       }
     }
   }  @SerializedName("facility")
-  private FacilityEnum facility = new BigDecimal(1);
+  private FacilityEnum facility = null;
 
   /**
    * Default value for message severity. When you send logs as JSON objects, the event&#x27;s &#x27;__severity&#x27; field (if set) will override this value.
@@ -1585,7 +1585,7 @@ public class OutputStatsd implements OneOfOutput, AnyOfOutputStatsd {
       }
     }
   }  @SerializedName("logType")
-  private LogTypeEnum logType = ;
+  private LogTypeEnum logType = null;
 
   @SerializedName("resourceId")
   private String resourceId = null;
@@ -1714,7 +1714,7 @@ public class OutputStatsd implements OneOfOutput, AnyOfOutputStatsd {
       }
     }
   }  @SerializedName("ack")
-  private AckEnum ack = new BigDecimal(1);
+  private AckEnum ack = null;
 
   @SerializedName("flushEventCount")
   private BigDecimal flushEventCount = new BigDecimal(1000);

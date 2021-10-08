@@ -111,7 +111,7 @@ public class InputGrafana implements OneOfInput, AnyOfInputGrafana {
       }
     }
   }  @SerializedName("type")
-  private TypeEnum type = collection;
+  private TypeEnum type = null;
 
   @SerializedName("disabled")
   private Boolean disabled = false;

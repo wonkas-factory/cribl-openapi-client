@@ -111,7 +111,7 @@ public class InputOffice365Mgmt implements OneOfInput, AnyOfInputOffice365Mgmt {
       }
     }
   }  @SerializedName("type")
-  private TypeEnum type = collection;
+  private TypeEnum type = null;
 
   @SerializedName("disabled")
   private Boolean disabled = false;

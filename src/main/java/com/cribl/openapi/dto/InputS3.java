@@ -111,7 +111,7 @@ public class InputS3 implements OneOfInput, AnyOfInputS3 {
       }
     }
   }  @SerializedName("type")
-  private TypeEnum type = collection;
+  private TypeEnum type = null;
 
   @SerializedName("disabled")
   private Boolean disabled = false;

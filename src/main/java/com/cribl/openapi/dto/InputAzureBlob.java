@@ -111,7 +111,7 @@ public class InputAzureBlob implements OneOfInput, AnyOfInputAzureBlob {
       }
     }
   }  @SerializedName("type")
-  private TypeEnum type = collection;
+  private TypeEnum type = null;
 
   @SerializedName("disabled")
   private Boolean disabled = false;

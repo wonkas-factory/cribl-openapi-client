@@ -111,7 +111,7 @@ public class InputOffice365Service implements OneOfInput, AnyOfInputOffice365Ser
       }
     }
   }  @SerializedName("type")
-  private TypeEnum type = collection;
+  private TypeEnum type = null;
 
   @SerializedName("disabled")
   private Boolean disabled = false;

@@ -1,0 +1,11 @@
+{
+	"groupId": "com.cribl.openapi",
+	"apiPackage": "com.cribl.openapi.service",
+	"modelPackage": "com.cribl.openapi.dto",
+	"invokerPackage": "com.cribl.openapi.client",
+	"artifactId": "cribl-openapi",
+	"artifactDescription": "Cribl OpenAPI",
+	"artifactVersion": "0.0.1-SNAPSHOT",
+	"java8": "true",
+	"dateLibrary": "legacy"
+}

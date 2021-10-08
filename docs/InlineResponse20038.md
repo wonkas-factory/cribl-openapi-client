@@ -1,0 +1,7 @@
+# InlineResponse20038
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**count** | **Integer** | number of items present in the items array |  [optional]
+**items** | [**List&lt;LogFileInfo&gt;**](LogFileInfo.md) |  |  [optional]
